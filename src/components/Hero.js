@@ -28,7 +28,7 @@ export default function Hero(){
                 />
                 {/* MOVING ICONS  */}
                 <motion.div
-                className="absolute top-40 left-60 text-purple-400 text-4xl"
+                className="absolute top-40 left-60 text-purple-400 text-4xl hidden md:block"
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}
                 >
@@ -36,7 +36,7 @@ export default function Hero(){
                 </motion.div>
 
                 <motion.div
-                className="absolute top-40 right-60 text-purple-400 text-4xl"
+                className="absolute top-40 right-60 text-purple-400 text-4xl hidden md:block"
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}
                 >
@@ -44,38 +44,38 @@ export default function Hero(){
                 </motion.div>
 
                 <motion.div
-                className="absolute bottom-40 left-60 text-purple-400 text-4xl"
+                className="absolute bottom-40 left-60 text-purple-400 text-4xl hidden md:block"
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 4, repeat: Infinity, delay:0.5 }}
                 >
                 <FaReact/>
                 </motion.div>
 
-                <motion.div className="absolute bottom-40 right-60 text-purple-400 text-4xl"
+                <motion.div className="absolute bottom-40 right-60 text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:0.5}}>
                 <FaJs/>
                 </motion.div>
 
-                <motion.div className="absolute bottom-30 right-20 text-purple-400 text-4xl"
+                <motion.div className="absolute bottom-30 right-20 text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:2}}>
                 <FaGithub/>
                 </motion.div>
 
-                <motion.div className="absolute bottom-30 left-20 text-purple-400 text-4xl"
+                <motion.div className="absolute bottom-30 left-20 text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:2}}>
                 <FaHtml5/>
                 </motion.div>
 
-                <motion.div className="absolute top-[120px] right-30 text-purple-400 text-4xl"
+                <motion.div className="absolute top-[120px] right-30 text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:1}}>
                 <FaCss3/>
                 </motion.div>
 
-                <motion.div className="absolute bottom-20 right-30 text-purple-400 text-4xl"
+                <motion.div className="absolute bottom-20 right-30 text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:1}}>
                 <FaTerminal/>

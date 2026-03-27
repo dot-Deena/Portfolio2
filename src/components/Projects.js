@@ -57,7 +57,7 @@ export default function Projects(){
                 {/* MOVING ICONSSSS */}
 
                 <motion.div
-                className="absolute top-[160px] left-[160px] text-purple-400 text-4xl"
+                className="absolute top-[160px] left-[160px] text-purple-400 text-4xl hidden md:block"
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}
                 >
@@ -65,7 +65,7 @@ export default function Projects(){
                 </motion.div>
 
                 <motion.div
-                className="absolute top-[420px] right-[30px] text-purple-400 text-4xl"
+                className="absolute top-[420px] right-[30px] text-purple-400 text-4xl hidden md:block"
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}
                 >
@@ -73,32 +73,32 @@ export default function Projects(){
                 </motion.div>
 
                 <motion.div
-                className="absolute bottom-[140px] right-20 text-purple-400 text-4xl"
+                className="absolute bottom-[140px] right-20 text-purple-400 text-4xl hidden md:block"
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 4, repeat: Infinity, delay:0.5 }}
                 >
                 <SiMongodb/>
                 </motion.div>
 
-                <motion.div className="absolute bottom-30 right-20 text-purple-400 text-4xl"
+                <motion.div className="absolute bottom-30 right-20 text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:2}}>
                 <FaGithub/>
                 </motion.div>
 
-                <motion.div className="absolute top-30 left-[620px] text-purple-400 text-4xl"
+                <motion.div className="absolute top-30 left-[620px] text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:2}}>
                 <SiPandas/>
                 </motion.div>
 
-                <motion.div className="absolute top-[420px] right-30 text-purple-400 text-4xl"
+                <motion.div className="absolute top-[420px] right-30 text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:1}}>
                 <FaNodeJs/>
                 </motion.div>
 
-                <motion.div className="absolute bottom-10 right-[800px] text-purple-400 text-4xl"
+                <motion.div className="absolute bottom-10 right-[800px] text-purple-400 text-4xl hidden md:block"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:1}}>
                 <VscVscode/>
