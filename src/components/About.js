@@ -75,6 +75,8 @@ export default function About(){
         <motion.span whileHover={{ scale: 1.03, y:-5 }} className="px-3 py-1 border border-gray-600 rounded-lg text-sm hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">CSS</motion.span>
         <motion.span whileHover={{ scale: 1.03, y:-5 }} className="px-3 py-1 border border-gray-600 rounded-lg text-sm hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">JavaScript</motion.span>
         <motion.span whileHover={{ scale: 1.03, y:-5 }} className="px-3 py-1 border border-gray-600 rounded-lg text-sm hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">Python</motion.span>
+        <motion.span whileHover={{ scale: 1.03, y:-5 }} className="px-3 py-1 border border-gray-600 rounded-lg text-sm hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">Java</motion.span>
+        <motion.span whileHover={{ scale: 1.03, y:-5 }} className="px-3 py-1 border border-gray-600 rounded-lg text-sm hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">Git</motion.span>
         <motion.span whileHover={{ scale: 1.03, y:-5 }} className="px-3 py-1 border border-gray-600 rounded-lg text-sm hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">React</motion.span>
         <motion.span whileHover={{ scale: 1.03, y:-5 }} className="px-3 py-1 border border-gray-600 rounded-lg text-sm hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">Swift</motion.span>
 

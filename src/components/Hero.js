@@ -69,7 +69,7 @@ export default function Hero(){
                 <FaHtml5/>
                 </motion.div>
 
-                <motion.div className="absolute top-20 right-30 text-purple-400 text-4xl"
+                <motion.div className="absolute top-[120px] right-30 text-purple-400 text-4xl"
                 animate={{y: [0, -20, 0] }}
                 transition={{duration:4, repeat:Infinity, delay:1}}>
                 <FaCss3/>
@@ -85,7 +85,7 @@ export default function Hero(){
 
         <div className="flex justify-center w-1/2">
             <img
-                src="/your-image.jpg"
+                src="/pic.jpeg"
                 alt="profile"
                 className="w-80 h-80 rounded-full object-cover border-2 border-purple-500 shadow-[0_0_60px_rgba(168,85,247,0.6)]"
             />

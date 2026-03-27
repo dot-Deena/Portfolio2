@@ -21,11 +21,30 @@ export default function RootLayout({ children }) {
       duration: 1000,
       once: true,
     });
+  
+    const cursor = document.getElementById("custom-cursor");
+  
+    const moveCursor = (e) => {
+      if (cursor) {
+        cursor.style.left = `${e.clientX}px`;
+        cursor.style.top = `${e.clientY}px`;
+      }
+    };
+  
+    window.addEventListener("mousemove", moveCursor);
+  
+    return () => {
+      window.removeEventListener("mousemove", moveCursor);
+    };
   }, []);
 
   return (
     <html lang="en">
-      <body className={bodyFont.className}>{children}</body>
+      <body className={bodyFont.className}>
+          <div
+        id="custom-cursor"
+        className="fixed top-0 left-0 w-5 h-5 rounded-full pointer-events-none z-[9999]"></div>
+        {children}</body>
     </html>
   );
 }

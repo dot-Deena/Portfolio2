@@ -5,3 +5,12 @@
 html {
     scroll-behavior: smooth;
   }
+
+  #custom-cursor {
+    background: rgb(85, 0, 128);
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+  }
+  body {
+    cursor: none;
+  }
