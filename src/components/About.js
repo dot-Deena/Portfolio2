@@ -2,8 +2,8 @@
 
 export default function About(){
     return (
-        <section id="about" className="min-h-screen px-6 py-20">
-            <h2 className="text-3xl font-bold text-center mb-10"> About Me </h2>
+        <section id="about" className="min-h-screen px-6 py-20 bg-[#0a0a0a]">
+            <h2 className="text-white text-3xl font-bold text-center mb-10"> About Me </h2>
 
             <div data-aos="fade-right" className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto"> 
             {/* JOURNEY CARD!! */}
