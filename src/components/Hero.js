@@ -113,7 +113,7 @@ export default function Hero(){
                 initial={{opacity:0, y:30}}
                 animate={{opacity:1, y:0}}
                 transition={{delay:0.8}}
-                className="inline-block mt-6 px-8 py-4 bg-purple-600 text-white rounded-full hover:bg-purple-400 transition">
+                className={`${headingFont.className} inline-block mt-6 px-8 py-4 bg-purple-600 text-white rounded-full hover:bg-purple-400 transition`}>
                     View my work
                 </motion.a>
             </div>
