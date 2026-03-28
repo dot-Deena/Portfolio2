@@ -95,19 +95,19 @@ export default function Contact() {
               type="text"
               name="user_name"
               placeholder="Your Name"
-              className="p-3 text-white bg-gray-800 rounded-lg border border-gray-700 outline-none"
+              className="p-3 text-white bg-gray-800 rounded-lg border border-gray-700 outline-none" required
             />
             <input
               type="email"
               name="user_email"
               placeholder="Your Email"
-              className="p-3 text-white bg-gray-800 rounded-lg border border-gray-700 outline-none"
+              className="p-3 text-white bg-gray-800 rounded-lg border border-gray-700 outline-none" required
             />
             <textarea
               name="message"
               placeholder="Your Message"
               rows="10"
-              className="p-3 text-white bg-gray-800 rounded-lg border border-gray-700 outline-none"
+              className="p-3 text-white bg-gray-800 rounded-lg border border-gray-700 outline-none" required
             />
 
             <button className="text-white mt-4 py-3 bg-purple-600 rounded-lg hover:bg-purple-700 transition" type="submit">

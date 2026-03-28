@@ -14,7 +14,9 @@ export default function About(){
             <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
 
     {/* Journey 1st card */}
-    <div data-aos="fade-up-right" className="md:col-span-2 bg-gradient-to-br from-gray-900 to-gray-800 p-8 rounded-2xl border border-gray-700">
+    <div data-aos="fade-up-right" className="group relative overflow-hidden md:col-span-2 bg-gradient-to-br from-gray-900 to-gray-800 p-8 rounded-2xl border border-gray-700">
+    {/* shine */}
+    <div className="absolute inset-0 pointer-events-none shine-hover"></div>
       <h3 className={` ${headingFont.className} text-white text-xl font-semibold mb-3` }>My Journey</h3>
       <p className="text-gray-400 mb-6">
         Started coding with curiosity, now exploring full-stack development and machine learning.
@@ -40,8 +42,8 @@ export default function About(){
     </div>
 
     {/* Education  2nd */}
-    <div data-aos="fade-up-right" data-aos-delay="200" className="bg-gray-900 p-6 rounded-2xl border border-gray-700">
-
+    <div data-aos="fade-up-right" data-aos-delay="200" className="group relative overflow-hidden bg-gray-900 p-6 rounded-2xl border border-gray-700">
+    <div className="absolute inset-0 pointer-events-none shine-hover"></div>
         <div className="flex items-center gap-3">
         <h3 className={`${headingFont.className} text-white text-lg font-semibold mb-2`}>Education</h3>
         <FaGraduationCap className="text-purple-500 text-4xl relative top-[-5px]"/>
@@ -52,7 +54,8 @@ export default function About(){
     </div>
     
     {/* Passion 3rd  */}
-    <div data-aos="fade-up-right" data-aos-delay="400" className="bg-gray-900 p-6 rounded-2xl border border-gray-700">
+    <div data-aos="fade-up-right" data-aos-delay="400" className="group relative overflow-hidden bg-gray-900 p-6 rounded-2xl border border-gray-700">
+    <div className="absolute inset-0 pointer-events-none shine-hover"></div>
         <div className="flex items-center gap-3">
             <h3 className={` ${headingFont.className} text-white text-lg font-semibold mb-3`}>Passion</h3>
             <IoCodeSlash className="text-purple-500 text-4xl relative top-[-5px]"/>
@@ -67,7 +70,8 @@ export default function About(){
     </div>
 
     {/* Tech Stack 4th */}
-    <div data-aos="fade-up-right" data-aos-delay="500" className="md:col-span-2 bg-gray-900 p-6 rounded-2xl border border-gray-700">
+    <div data-aos="fade-up-right" data-aos-delay="500" className="group relative overflow-hidden md:col-span-2 bg-gray-900 p-6 rounded-2xl border border-gray-700">
+    <div className="absolute inset-0 pointer-events-none shine-hover"></div>
       <h3 className={` ${headingFont.className} text-white text-lg font-semibold mb-4`}>Tech Stack</h3>
 
       <div className="flex flex-wrap gap-3 text-white">
