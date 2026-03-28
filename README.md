@@ -1,4 +1,4 @@
-# 🌌 Deena Inti — Portfolio
+# 🌌 Deena Inti — Portfolio Website
 
 A modern, minimal portfolio website built to showcase my projects, skills, and experience.
 
@@ -53,5 +53,3 @@ Deployed on **Vercel** for fast and optimized performance.
 🔗 https://linkedin.com/in/deena-sreshta/  
 
 ---
-
-> designed & built with intent.
